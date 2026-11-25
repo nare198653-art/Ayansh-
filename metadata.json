@@ -1,0 +1,6 @@
+{
+  "name": "ColorCraft - Kids Coloring Book Studio",
+  "description": "Create personalized 5-page children's coloring books with custom themes, thick-line print art, custom cover pages, interactive coloring, and instant PDF download.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

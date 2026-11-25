@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@media print {
+  header,
+  form,
+  button,
+  .no-print,
+  [role="region"] {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .print-page {
+    page-break-after: always !important;
+    break-after: page !important;
+    margin: 0 !important;
+    padding: 20mm !important;
+  }
+}
